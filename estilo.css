@@ -5,7 +5,7 @@
 }
 body
 {
-    background-image: linear-gradient(to right, rgb(192, 113, 192),rgb(158, 110, 202),rgb(74, 74, 179));
+    background-image: linear-gradient(to right, rgb(192, 113, 192),rgb(158, 110, 202),rgb(108, 108, 187),rgb(68, 68, 177));
 }
 .container
 {
@@ -68,7 +68,7 @@ body
     border-style: solid;
     border-radius: 10px;
     box-shadow: 2px 5px 5px #000;
-    transition: 0.5s;
+    transition: 0.35s;
 }
 a
 {
@@ -79,5 +79,5 @@ a
 {
     background-color: #cccccc;
     box-shadow: 2px 5px 5px #cccccc;
-    transform:translateY(-10px);
+    transform:translateY(-15px);
 }
