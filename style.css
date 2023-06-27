@@ -2,10 +2,13 @@
 {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body
 {
-    background-image: linear-gradient(to right, rgb(192, 113, 192),rgb(158, 110, 202),rgb(108, 108, 187),rgb(68, 68, 177));
+    background-image: linear-gradient(to right,rgb(149, 82, 212), rgb(140, 79, 197),rgb(72, 72, 184));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .container
 {
