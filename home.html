@@ -6,35 +6,60 @@
     <script src="https://kit.fontawesome.com/19449ccf1e.js" crossorigin="anonymous"></script>
     <link rel="Stylesheet" href="style.css">
 </head>
-<body class="gradient">    
+<body>
+    <div class="wrapper">
+        <div class="box">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <p>👋 Oi, sou Tiago</p>
+    <h1 class="texto1">FRONTEND</h1>
+    <h1 class="texto2">DEVELOPER</h1>
+    <h1 class="texto3">Meu Email</h1>
+
     <div class="container">
-        <p class="text-container-1">👋 Prazer, sou o Tiago</p>
-        <h3 class="text-container-2">FRONTEND</h3>
-        <h1 class="text-container-3">DEVELOPER</h1>
-        <p class="text-container-4">Tenho 19 anos, sou desenvolvedor frontend sem experiência profissional e com aptidão para
-            <br>
-                 descobrir coisas novas tecnologias.
-        </p>
+        <input type="text" id="texto" value="tiagoleoschroeder@gmail.com" disabled>
+        <button id="copiar"><img src="copiar.png" id="copia"></button>
     </div>
 
     <div class="botoes">
-        <button class="botao">
-            <i class="fa-brands fa-linkedin"></i>
-            <a href="https://www.linkedin.com/in/tiago-leonardo-schroeder-44200a241/">Linkedin</a>
-        </button>
-        <button class="botao">
-            <i class="fa-brands fa-github"></i>
-            <a href="https://github.com/TiagoLeoSchroeder">Github</a>
-        </button>
-        <button class="botao">
-            <i class="fa-solid fa-file-pdf"></i>
-            <a href="Currículo de Tiago Leonardo Schroeder.pdf" download>Ver Currículo</a>
-        </button>
-        <button class="botao">
-            <i class="fa-solid fa-file"></i>
-            <a href="#">Projetos</a>
-        </button>
+        <a href="" class="botao">
+            <i class="fa-brands fa-linkedin">
+                <h2 class="subtexto1">Linkedin</h2>
+            </i>
+        </a>
+        <a href="" class="botao">
+            <i class="fa-brands fa-github">
+                <h2 class="subtexto2">Github</h2>
+            </i>
+        </a>
+        <a href="" class="botao">
+            <i class="fa-solid fa-file">
+                <h2 class="subtexto3">Projetos</h2>
+            </i>
+        </a>
+        <a href="" class="botao">
+            <i class="fa-solid fa-user">
+                <h2 class="subtexto4">Sobre mim</h2>
+            </i>
+        </a>
     </div>
-   
+
+    <script type="text/javascript">
+        document.getElementById("copiar").addEventListener("click", function() {
+            document.getElementById("texto").select();
+            document.execCommand('copy');
+        })
+    </script>
 </body>
 </html>
