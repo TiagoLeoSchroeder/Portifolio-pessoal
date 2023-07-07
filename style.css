@@ -21,7 +21,7 @@ input[type="text"]
     height: 100px;
     text-align: center;
     font-size: 1.7rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: cursive;
     background-color: #fff;
     color: #000;
     border-color: transparent;
@@ -30,7 +30,7 @@ input[type="text"]
 #copiar
 {
     position: relative;
-    top: -12.55rem;
+    top: -12.7rem;
     background-color: #fff;
     border-color: transparent;
     border-radius: 0px 10px 10px 0px;
@@ -41,7 +41,11 @@ input[type="text"]
 }
 #copiar:hover
 {
-    background-color: #4e96c5;
+    background-color: rgb(63, 144, 219);
+}
+#copiar:hover #copia
+{
+    transform: translateY(-10px);
 }
 #copiar:active
 {
@@ -52,10 +56,6 @@ input[type="text"]
     width: 60px;
     height: 60px;
     transition: 0.1s;
-}
-#copia:hover
-{
-    transform: translateY(-5px);
 }
 .wrapper
 {
