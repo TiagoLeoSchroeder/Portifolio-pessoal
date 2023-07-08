@@ -28,8 +28,8 @@
     <h1 class="texto3">Meu Email</h1>
 
     <div class="container">
-        <input type="text" id="texto" value="tiagoleoschroeder@gmail.com" disabled>
-        <button id="copiar"><img src="copiar.png" id="copia"></button>
+        <input type="text" id="email" value="tiagoleoschroeder@gmail.com" disabled>
+        <button id="copiar" onclick="copiarTexto()"><img src="copiar.png" id="copia"></button>
     </div>
 
     <div class="botoes">
@@ -55,10 +55,14 @@
         </a>
     </div>
 
-    <script type="text/javascript">
-        document.getElementById("copiar").addEventListener("click", function() {
-            document.getElementById("texto").select();
-            document.execCommand('copy');
+    <script>
+        const tcpy = document.getElementById("copiar")
+        const texto = document.getElementById("email")
+
+        tcpy.addEventListener("click",(evt)=>{
+            texto.select()
+            texto.setSelectionRange(0, 9999)
+            navigator.clipboard.writeText(texto.value)
         })
     </script>
 </body>
