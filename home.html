@@ -6,7 +6,8 @@
     <script src="https://kit.fontawesome.com/19449ccf1e.js" crossorigin="anonymous"></script>
     <link rel="Stylesheet" href="style.css">
 </head>
-<body>
+<body id="corpo">
+    <div id="newBackground">
     <div class="wrapper">
         <div class="box">
             <div></div>
@@ -22,10 +23,15 @@
         </div>
     </div>
 
+        <div class="loader" id="loading"></div>
+        
     <p>👋 Oi, sou Tiago</p>
     <h1 class="texto1">FRONTEND</h1>
     <h1 class="texto2">DEVELOPER</h1>
     <h1 class="texto3">Meu Email</h1>
+
+    
+
 
     <div class="container">
         <input type="text" id="email" value="tiagoleoschroeder@gmail.com" disabled>
@@ -33,39 +39,26 @@
     </div>
 
     <div class="botoes">
-        <a href="" class="botao">
-            <i class="fa-brands fa-linkedin">
-                
-            </i>
+        <button type="button" class="botao" onclick="Linkedin()">
+            <i class="fa-brands fa-linkedin"></i>
             <h2 class="subtexto1">Linkedin</h2>
-        </a>
-        <a href="" class="botao">
-            <i class="fa-brands fa-github">
-               
-            </i>
+        </button>
+            <button type="button" class="botao" onclick="Github()">
+            <i class="fa-brands fa-github"></i>
             <h2 class="subtexto2">Github</h2>
-        </a>
-        <a href="" class="botao">
+        </button>
+            <button type="button" class="botao" onclick="IrParaPagina()">
             <i class="fa-solid fa-file"></i>
             <h2 class="subtexto3">Projetos</h2>
-        </a>
-        <a href="" class="botao">
-            <i class="fa-solid fa-user">
-                
-            </i>
+        </button>
+        <button type="button" class="botao" onclick="IrParaPagina()">
+            <i class="fa-solid fa-user"></i>
             <h2 class="subtexto4">Sobre mim</h2>
-        </a>
+        </button>
     </div>
+</div>
 
-    <script>
-        const tcpy = document.getElementById("copiar")
-        const texto = document.getElementById("email")
 
-        tcpy.addEventListener("click",(evt)=>{
-            texto.select()
-            texto.setSelectionRange(0, 9999)
-            navigator.clipboard.writeText(texto.value)
-        })
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
