@@ -10,6 +10,7 @@ body
     min-height: 100vh;
     background-image: linear-gradient(35deg, rgb(178, 133, 219), rgb(146, 86, 202), rgb(67, 67, 218));
     background-repeat: no-repeat;
+    background-size: cover;
     z-index: 1;
 }
 #paragrafo
@@ -216,12 +217,13 @@ h2
 {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 i
 {
     position: relative;
-    top: 50px;
-    right: 100px;
+    top: 110px;
+    left: 25px;
     margin-left: -10px;
     margin-top: -90px;
     font-size: 3.2rem;
@@ -239,6 +241,7 @@ i
     position: relative;
     left: 10px;
     top: -80px;
+    display: flex;
     margin-left: 50px;
     border-style: solid;
     border-radius: 10px;
@@ -270,28 +273,28 @@ i
 .subtexto1
 {
     position: relative;
-    left: 35px;
-    bottom: 10px;
+    left: 70px;
+    top: 15px;
 }
 .subtexto2
 {
     position: relative;
-    top: -10px;
-    left: 25px;
+    top: 15px;
+    left: 83px;
 }
 .subtexto3
 {
     position: relative;
-    top: -10px;
-    left: 30px;
+    top: 13px;
+    left: 82px;
 }
 .subtexto4
 {
     width: 230px;
     position: relative;
-    top: -10px;
+    top: 13px;
     font-size: 2.8rem;
-    left: 72px;
+    left: 41px;
 }
 ::-webkit-scrollbar
 {

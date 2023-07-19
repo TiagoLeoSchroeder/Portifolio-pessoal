@@ -15,7 +15,7 @@ function Github(){
     var display = document.getElementById("loading").style.display;
 if(display == "none")
     document.getElementById("loading").style.display = 'block',
-    setTimeout( function() { window.location = 'https://github.com/TiagoLeoSchroeder' }, 2800 );
+    setTimeout( function() { window.location = 'https://github.com/TiagoLeoSchroeder' }, 1200 );
 else
     document.getElementById("loading").style.display = 'none';
     document.getElementById("paragrafo").style.display = 'none';
