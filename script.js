@@ -26,4 +26,5 @@ tcpy.addEventListener("click",(evt)=>{
     texto.select()
     texto.setSelectionRange(0, 9999)
     navigator.clipboard.writeText(texto.value)
+    alert("Copiado!");
 })
