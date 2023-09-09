@@ -21,6 +21,26 @@ else
     document.getElementById("paragrafo").style.display = 'none';
 }
 
+function IrParaPagina(){
+    var display = document.getElementById("loading").style.display;
+if(display == "none")
+    document.getElementById("loading").style.display = 'block',
+    setTimeout( function() { window.location = '' }, 1200 );
+else
+    document.getElementById("loading").style.display = 'none';
+    document.getElementById("paragrafo").style.display = 'none';
+}
+
+function SobreMim(){
+    var display = document.getElementById("loading").style.display;
+if(display == "none")
+    document.getElementById("loading").style.display = 'block',
+    setTimeout( function() { window.location = '' }, 1200 );
+else
+    document.getElementById("loading").style.display = 'none';
+    document.getElementById("paragrafo").style.display = 'none';
+}
+
 
 tcpy.addEventListener("click",(evt)=>{
     texto.select()

@@ -190,6 +190,7 @@ h2
 }
 .texto1
 {
+    width: 8ch;
     font-size: 7rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
