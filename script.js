@@ -1,3 +1,5 @@
+alert('Esta é uma pequena apresentação do meu portifólio, ele não está responsivo mas ainda está em desenvolvimento.').style.fontSize = "15px";
+
 const tcpy = document.getElementById("copiar")
 const texto = document.getElementById("email")
 
@@ -36,7 +38,7 @@ function Projetos(){
 if(display == "none")
     document.getElementById("loading").style.display = 'block',
     setTimeout( function() { window.location = '' }, 1200 ),
-    alert('Este botão não possui uma funcionalidade ainda, no momento está apenas como decoração. Para visualizar os meus projetos pessoais, basta aperta o botão "Github"');
+    alert('Este botão não possui uma funcionalidade ainda, no momento está apenas como decoração. Para visualizar os meus projetos pessoais, basta aperta o botão "Github".');
 else
     document.getElementById("loading").style.display = 'none';
     document.getElementById("paragrafo").style.display = 'none';
