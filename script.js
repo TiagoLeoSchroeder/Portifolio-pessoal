@@ -1,5 +1,3 @@
-alert('Esta é uma pequena apresentação do meu portifólio, ele não está responsivo mas ainda está em desenvolvimento.').style.fontSize = "15px";
-
 const tcpy = document.getElementById("copiar")
 const texto = document.getElementById("email")
 
