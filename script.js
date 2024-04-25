@@ -36,7 +36,7 @@ function Projetos(){
 if(display == "none")
     document.getElementById("loading").style.display = 'block',
     setTimeout( function() { window.location = '' }, 1200 ),
-    alert('Este botão na possui uma funcionalidade ainda, no momento está apenas como decoração. Para acessar os projetos de sites, acesse meu Github.');
+    alert('Este botão não possui uma funcionalidade ainda, no momento está apenas como decoração. Para acessar os projetos de sites, acesse meu Github.');
 else
     document.getElementById("loading").style.display = 'none';
     document.getElementById("paragrafo").style.display = 'none';
